@@ -1,0 +1,417 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Settings · Mindband Connect For Cassia</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="AppClient.html" />
+    
+    
+    <link rel="prev" href="App.html" />
+    
+
+    <script src="gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    API Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Cassia.html">
+            
+                <a href="Cassia.html">
+            
+                    
+                    Cassia Hub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="App.html">
+            
+                <a href="App.html">
+            
+                    
+                    Sample App
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="AppSettings.html">
+            
+                <a href="AppSettings.html">
+            
+                    
+                    Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="AppClient.html">
+            
+                <a href="AppClient.html">
+            
+                    
+                    Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="AppServer.html">
+            
+                <a href="AppServer.html">
+            
+                    
+                    Server-Stub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Mindband.html">
+            
+                <a href="Mindband.html">
+            
+                    
+                    Mindband
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="ToDo.html">
+            
+                <a href="ToDo.html">
+            
+                    
+                    TODO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Settings</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="progress-web-app---nuxtjspwa">Progress Web App - nuxtjs/pwa</h1>
+<ul>
+<li>npm run generate:gh-pages</li>
+</ul>
+<h2 id="pacagejson">pacage.json</h2>
+<pre><code class="lang-json"><span class="hljs-string">&quot;scripts&quot;</span>: {
+    <span class="hljs-string">&quot;dev&quot;</span>: <span class="hljs-string">&quot;nuxt&quot;</span>,
+    <span class="hljs-string">&quot;build:gh-pages&quot;</span>: <span class="hljs-string">&quot;cross-env DEPLOY_ENV=GH_PAGES nuxt build&quot;</span>,
+    <span class="hljs-string">&quot;generate:gh-pages&quot;</span>: <span class="hljs-string">&quot;cross-env DEPLOY_ENV=GH_PAGES nuxt generate&quot;</span>
+  },
+</code></pre>
+<hr>
+<h2 id="nuxtconfigjs">nuxt.config.js</h2>
+<p>routerBase</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> routerBase = process.env.DEPLOY_ENV === <span class="hljs-string">&apos;GH_PAGES&apos;</span> ? {
+  router: {
+    base: <span class="hljs-string">&apos;/mindband-pwa/&apos;</span>
+  }
+} : {}
+</code></pre>
+<p>GH_PAGES from cross-env</p>
+<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = {
+..
+  build: {
+    ..
+    ..
+    publicPath: process.env.DEPLOY_ENV === <span class="hljs-string">&apos;GH_PAGES&apos;</span> ? <span class="hljs-string">&apos;/mindband-pwa/&apos;</span> : <span class="hljs-string">&apos;/_nuxt/&apos;</span>,
+  },
+</code></pre>
+<p>icon</p>
+<ul>
+<li>static/icon.png<pre><code class="lang-js"><span class="hljs-built_in">module</span>.exports = {
+head: {
+  link: [
+    { rel: <span class="hljs-string">&apos;icon&apos;</span>, type: <span class="hljs-string">&apos;image/x-icon&apos;</span>, href: <span class="hljs-string">&apos;/favicon.ico&apos;</span> }
+  ]
+</code></pre>
+</li>
+</ul>
+<p>workbox and manifest</p>
+<pre><code class="lang-js">modules: [
+    [<span class="hljs-string">&apos;@nuxtjs/pwa&apos;</span>, { workbox: { publicPath: <span class="hljs-string">&apos;/mindband-pwa/&apos;</span> }, manifest: { publicPath: <span class="hljs-string">&quot;/mindband-pwa/&quot;</span> } }]
+</code></pre>
+<p>start_url</p>
+<pre><code class="lang-js">manifest: {
+    ..
+    start_url: <span class="hljs-string">&apos;//mindband-pwa?standalone=true&apos;</span>,
+</code></pre>
+<p>env</p>
+<pre><code class="lang-js">  env: {
+    HOST_URL: process.env.HOST_URL || <span class="hljs-string">&apos;http://127.0.0.1:3030&apos;</span>,
+    CASSIA_URL:<span class="hljs-string">&apos;http://192.168.100.109&apos;</span>
+  },
+</code></pre>
+<p>plugin</p>
+<pre><code class="lang-js">  plugins: [
+    <span class="hljs-string">&apos;~/plugins/axios.js&apos;</span>,
+    <span class="hljs-string">&apos;~/plugins/mindband.js&apos;</span>,
+    ],
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="App.html" class="navigation navigation-prev " aria-label="Previous page: Sample App">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="AppClient.html" class="navigation navigation-next " aria-label="Next page: Client">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Settings","level":"1.3.1","depth":2,"next":{"title":"Client","level":"1.3.2","depth":2,"path":"AppClient.md","ref":"AppClient.md","articles":[]},"previous":{"title":"Sample App","level":"1.3","depth":1,"path":"App.md","ref":"App.md","articles":[{"title":"Settings","level":"1.3.1","depth":2,"path":"AppSettings.md","ref":"AppSettings.md","articles":[]},{"title":"Client","level":"1.3.2","depth":2,"path":"AppClient.md","ref":"AppClient.md","articles":[]},{"title":"Server-Stub","level":"1.3.3","depth":2,"path":"AppServer.md","ref":"AppServer.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["simple-page-toc","expandable-chapters","graph","mermaid-gb3","uml","livereload"],"root":"./en","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"simple-page-toc":{"addClass":true,"className":"toc","maxDepth":2},"mermaid-compat":{"theme":"forest"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"graph":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"uml":{"format":"png"},"mermaid-gb3":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","lunr":{"maxIndexSize":1000000000},"pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Mindband Connect For Cassia","gitbook":"*"},"file":{"path":"AppSettings.md","mtime":"2018-09-25T01:14:20.182Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-25T01:29:38.405Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
